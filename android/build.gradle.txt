@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+}
+
+group 'com.nelkinda.templates' // Change this
+version '0.0.1-SNAPSHOT'
+
+sourceCompatibility = 14
+
+repositories {
+    mavenCentral()
+}

@@ -1,0 +1,192 @@
+2021-03-18T10:42:24.412+0300 [INFO] [org.gradle.internal.nativeintegration.services.NativeServices] Initialized native services in: C:\Users\Kostya\.gradle\native
+2021-03-18T10:42:24.527+0300 [LIFECYCLE] [org.gradle.launcher.cli.DebugLoggerWarningAction] 
+#############################################################################
+   WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+
+   Debug level logging will leak security sensitive information!
+
+   https://docs.gradle.org/6.5/userguide/logging.html#sec:debug_security
+#############################################################################
+
+2021-03-18T10:42:24.544+0300 [DEBUG] [org.gradle.internal.nativeintegration.services.NativeServices] Native-platform posix files integration is not available. Continuing with fallback.
+2021-03-18T10:42:24.773+0300 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClient] Executing build 15b56f43-49c9-497f-8189-54f785809044 in daemon client {pid=12056}
+2021-03-18T10:42:24.870+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Software Loopback Interface 1
+2021-03-18T10:42:24.874+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? true
+2021-03-18T10:42:24.878+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /127.0.0.1
+2021-03-18T10:42:24.879+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /0:0:0:0:0:0:0:1
+2021-03-18T10:42:24.879+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPTP)
+2021-03-18T10:42:24.882+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2021-03-18T10:42:24.882+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft 6to4 Adapter
+2021-03-18T10:42:24.884+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2021-03-18T10:42:24.884+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface VMware Virtual Ethernet Adapter for VMnet1
+2021-03-18T10:42:24.888+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2021-03-18T10:42:24.888+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.174.1
+2021-03-18T10:42:24.888+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:190b:b99:c19a:4b31%eth0
+2021-03-18T10:42:24.888+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IKEv2)
+2021-03-18T10:42:24.890+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2021-03-18T10:42:24.890+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft IP-HTTPS Platform Adapter
+2021-03-18T10:42:24.892+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2021-03-18T10:42:24.892+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (L2TP)
+2021-03-18T10:42:24.894+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2021-03-18T10:42:24.894+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (SSTP)
+2021-03-18T10:42:24.896+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2021-03-18T10:42:24.896+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Teredo Tunneling Adapter
+2021-03-18T10:42:24.898+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2021-03-18T10:42:24.898+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPPOE)
+2021-03-18T10:42:24.900+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2021-03-18T10:42:24.900+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface VMware Virtual Ethernet Adapter for VMnet8
+2021-03-18T10:42:24.902+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2021-03-18T10:42:24.902+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.37.1
+2021-03-18T10:42:24.902+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:bd8c:885b:ec09:da10%eth1
+2021-03-18T10:42:24.902+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Kernel Debug Network Adapter
+2021-03-18T10:42:24.903+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2021-03-18T10:42:24.903+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)
+2021-03-18T10:42:24.905+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2021-03-18T10:42:24.905+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe FE Family Controller
+2021-03-18T10:42:24.906+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2021-03-18T10:42:24.906+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.110.205
+2021-03-18T10:42:24.906+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:5530:387c:83ef:8556%eth4
+2021-03-18T10:42:24.906+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)
+2021-03-18T10:42:24.908+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2021-03-18T10:42:24.908+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)
+2021-03-18T10:42:24.909+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2021-03-18T10:42:24.909+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe FE Family Controller-WFP Native MAC Layer LightWeight Filter-0000
+2021-03-18T10:42:24.910+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2021-03-18T10:42:24.910+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe FE Family Controller-QoS Packet Scheduler-0000
+2021-03-18T10:42:24.912+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2021-03-18T10:42:24.912+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek PCIe FE Family Controller-WFP 802.3 MAC Layer LightWeight Filter-0000
+2021-03-18T10:42:24.913+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2021-03-18T10:42:24.913+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+2021-03-18T10:42:24.914+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2021-03-18T10:42:24.914+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-QoS Packet Scheduler-0000
+2021-03-18T10:42:24.916+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2021-03-18T10:42:24.916+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+2021-03-18T10:42:24.917+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2021-03-18T10:42:24.917+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+2021-03-18T10:42:24.919+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2021-03-18T10:42:24.919+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+2021-03-18T10:42:24.920+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2021-03-18T10:42:24.920+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+2021-03-18T10:42:24.922+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2021-03-18T10:42:24.927+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2021-03-18T10:42:24.936+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2021-03-18T10:42:24.940+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2021-03-18T10:42:24.942+0300 [INFO] [org.gradle.launcher.daemon.client.DefaultDaemonConnector] Found daemon DaemonInfo{pid=2200, address=[9a6c5d09-2bfd-49b3-95fe-8ef47a13d13e port:51017, addresses:[/127.0.0.1]], state=Idle, lastBusy=1615016186684, context=DefaultDaemonContext[uid=0acabad5-1f09-4375-ba1d-f55c9b36a6bf,javaHome=C:\Program Files\Android\Android Studio\jre,daemonRegistryDir=C:\Users\Kostya\.gradle\daemon,pid=2200,idleTimeout=10800000,priority=NORMAL,daemonOpts=-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+Java home is different.
+Wanted: DefaultDaemonContext[uid=null,javaHome=C:\Program Files (x86)\Java\jdk1.8.0_281,daemonRegistryDir=C:\Users\Kostya\.gradle\daemon,pid=12056,idleTimeout=null,priority=NORMAL,daemonOpts=-XX:MaxPermSize=4096m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx4096m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
+Actual: DefaultDaemonContext[uid=0acabad5-1f09-4375-ba1d-f55c9b36a6bf,javaHome=C:\Program Files\Android\Android Studio\jre,daemonRegistryDir=C:\Users\Kostya\.gradle\daemon,pid=2200,idleTimeout=10800000,priority=NORMAL,daemonOpts=-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+2021-03-18T10:42:24.942+0300 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Getting daemon stop events
+2021-03-18T10:42:24.943+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2021-03-18T10:42:24.943+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2021-03-18T10:42:24.943+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2021-03-18T10:42:24.944+0300 [INFO] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing 0 daemon stop events from registry
+2021-03-18T10:42:24.945+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2021-03-18T10:42:24.945+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2021-03-18T10:42:24.947+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2021-03-18T10:42:24.948+0300 [LIFECYCLE] [org.gradle.launcher.daemon.client.DefaultDaemonConnector] Starting a Gradle Daemon, 1 incompatible Daemon could not be reused, use --status for details
+2021-03-18T10:42:24.990+0300 [DEBUG] [org.gradle.launcher.daemon.client.DefaultDaemonStarter] Using daemon args: [C:\Program Files (x86)\Java\jdk1.8.0_281\bin\java.exe, -XX:MaxPermSize=4096m, -XX:+HeapDumpOnOutOfMemoryError, -Xmx4096m, -Dfile.encoding=windows-1252, -Duser.country=US, -Duser.language=en, -Duser.variant, -cp, C:\Users\Kostya\.gradle\wrapper\dists\gradle-6.5-bin\6nifqtx7604sqp1q6g8wikw7p\gradle-6.5\lib\gradle-launcher-6.5.jar]
+2021-03-18T10:42:24.994+0300 [DEBUG] [org.gradle.launcher.daemon.client.DefaultDaemonStarter] Starting daemon process: workingDir = C:\Users\Kostya\.gradle\daemon\6.5, daemonArgs: [C:\Program Files (x86)\Java\jdk1.8.0_281\bin\java.exe, -XX:MaxPermSize=4096m, -XX:+HeapDumpOnOutOfMemoryError, -Xmx4096m, -Dfile.encoding=windows-1252, -Duser.country=US, -Duser.language=en, -Duser.variant, -cp, C:\Users\Kostya\.gradle\wrapper\dists\gradle-6.5-bin\6nifqtx7604sqp1q6g8wikw7p\gradle-6.5\lib\gradle-launcher-6.5.jar, org.gradle.launcher.daemon.bootstrap.GradleDaemon, 6.5]
+2021-03-18T10:42:25.010+0300 [INFO] [org.gradle.process.internal.DefaultExecHandle] Starting process 'Gradle build daemon'. Working directory: C:\Users\Kostya\.gradle\daemon\6.5 Command: C:\Program Files (x86)\Java\jdk1.8.0_281\bin\java.exe -XX:MaxPermSize=4096m -XX:+HeapDumpOnOutOfMemoryError -Xmx4096m -Dfile.encoding=windows-1252 -Duser.country=US -Duser.language=en -Duser.variant -cp C:\Users\Kostya\.gradle\wrapper\dists\gradle-6.5-bin\6nifqtx7604sqp1q6g8wikw7p\gradle-6.5\lib\gradle-launcher-6.5.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 6.5
+2021-03-18T10:42:25.010+0300 [DEBUG] [org.gradle.process.internal.DefaultExecHandle] Environment for process 'Gradle build daemon': {PATH=C:\Users\Kostya\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Kostya\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Users\Kostya\AppData\Local\Programs\Python\Python39;C:\Users\Kostya\AppData\Local\Android\Sdk\platform-tools;C:\src\flutter\bin;C:\Ruby25-x64\bin;C:\Users\Kostya\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\Kostya\AppData\Local\Programs\Python\Python39;C:\Users\Kostya\AppData\Local\Microsoft\WindowsApps;C:\Users\Kostya\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Kostya\AppData\Roaming\npm;C:\Users\Kostya\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl, USERDOMAIN_ROAMINGPROFILE=DESKTOP-KID4F0A, PKG_CONFIG_PATH=C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig, MSYSTEM_PREFIX=C:/Program Files/Git/mingw64, PROCESSOR_LEVEL=6, SYSTEMDRIVE=C:, CONFIG_SITE=C:/Program Files/Git/mingw64/etc/config.site, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=x86, ANDROID_HOME=C:\Users\Kostya\AppData\Local\Android\Sdk, MSYSTEM_CHOST=x86_64-w64-mingw32, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, ORIGINAL_TEMP=C:/Users/Kostya/AppData/Local/Temp, PROGRAMFILES=C:\Program Files (x86), USERNAME=Kostya, PWD=E:/workspace/Native/Stars/android, TERM_PROGRAM_VERSION=3.4.2, ProgramFiles(x86)=C:\Program Files (x86), INFOPATH=C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW, SHELL=C:\Program Files\Git\usr\bin\bash.exe, DriverData=C:\Windows\System32\Drivers\DriverData, PROCESSOR_ARCHITEW6432=AMD64, ORIGINAL_TMP=C:/Users/Kostya/AppData/Local/Temp, OLDPWD=E:/workspace/Native/Stars/android, TMPDIR=C:\Users\Kostya\AppData\Local\Temp, WINDIR=C:\Windows, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, SSH_ASKPASS=C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass, HOMEPATH=\Users\Kostya, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 94 Stepping 3, GenuineIntel, PUBLIC=C:\Users\Public, MINGW_CHOST=x86_64-w64-mingw32, LC_CTYPE=C.UTF-8, =::=::\, EXEPATH=C:\Program Files\Git, SHLVL=1, LOCALAPPDATA=C:\Users\Kostya\AppData\Local, ORIGINAL_PATH=C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Kostya\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\Users\Kostya\AppData\Local\Programs\Python\Python39;C:\Users\Kostya\AppData\Local\Android\Sdk\platform-tools;C:\src\flutter\bin;C:\Ruby25-x64\bin;C:\Users\Kostya\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\Kostya\AppData\Local\Programs\Python\Python39;C:\Users\Kostya\AppData\Local\Microsoft\WindowsApps;C:\Users\Kostya\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Kostya\AppData\Roaming\npm;C:\Users\Kostya\AppData\Roaming\Composer\vendor\bin, MANPATH=C:\Program Files\Git\mingw64\local\man;C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man, MINGW_PACKAGE_PREFIX=mingw-w64-x86_64, USERDOMAIN=DESKTOP-KID4F0A, LOGONSERVER=\\DESKTOP-KID4F0A, JAVA_HOME=C:\Program Files (x86)\Java\jdk1.8.0_281, PLINK_PROTOCOL=ssh, TERM=xterm, MINGW_PREFIX=C:/Program Files/Git/mingw64, DISPLAY=needs-to-be-defined, MSYSTEM=MINGW64, OneDrive=C:\Users\Kostya\OneDrive, APPDATA=C:\Users\Kostya\AppData\Roaming, SYSTEMROOT=C:\Windows, OS=Windows_NT, TERM_PROGRAM=mintty, COMPUTERNAME=DESKTOP-KID4F0A, COMMONPROGRAMFILES=C:\Program Files (x86)\Common Files, COMSPEC=C:\Windows\system32\cmd.exe, PROCESSOR_REVISION=5e03, CommonProgramW6432=C:\Program Files\Common Files, ACLOCAL_PATH=C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal, RUBYOPT=-Eutf-8, MSYSTEM_CARCH=x86_64, TEMP=C:\Users\Kostya\AppData\Local\Temp, HOSTNAME=DESKTOP-KID4F0A, HOMEDRIVE=C:, USERPROFILE=C:\Users\Kostya, TMP=C:\Users\Kostya\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=8, HOME=C:\Users\Kostya}
+2021-03-18T10:42:25.010+0300 [DEBUG] [org.gradle.process.internal.DefaultExecHandle] Changing state to: STARTING
+2021-03-18T10:42:25.011+0300 [DEBUG] [org.gradle.process.internal.DefaultExecHandle] Waiting until process started: Gradle build daemon.
+2021-03-18T10:42:25.019+0300 [DEBUG] [org.gradle.process.internal.DefaultExecHandle] Changing state to: STARTED
+2021-03-18T10:42:25.019+0300 [INFO] [org.gradle.process.internal.DefaultExecHandle] Successfully started process 'Gradle build daemon'
+2021-03-18T10:42:25.019+0300 [DEBUG] [org.gradle.launcher.daemon.client.DefaultDaemonStarter] Gradle daemon process is starting. Waiting for the daemon to detach...
+2021-03-18T10:42:25.020+0300 [DEBUG] [org.gradle.process.internal.ExecHandleRunner] waiting until streams are handled...
+2021-03-18T10:42:25.020+0300 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonOutputConsumer] Starting consuming the daemon process output.
+2021-03-18T10:42:25.115+0300 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonOutputConsumer] daemon out: Java HotSpot(TM) Client VM warning: ignoring option MaxPermSize=4096m; support was removed in 8.0
+2021-03-18T10:42:25.115+0300 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonOutputConsumer] daemon out: Invalid maximum heap size: -Xmx4096m
+2021-03-18T10:42:25.115+0300 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonOutputConsumer] daemon out: The specified size exceeds the maximum representable size.
+2021-03-18T10:42:25.115+0300 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonOutputConsumer] daemon out: Error: Could not create the Java Virtual Machine.
+2021-03-18T10:42:25.116+0300 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonOutputConsumer] daemon out: Error: A fatal exception has occurred. Program will exit.
+2021-03-18T10:42:25.117+0300 [DEBUG] [org.gradle.process.internal.DefaultExecHandle] Changing state to: DETACHED
+2021-03-18T10:42:25.117+0300 [DEBUG] [org.gradle.process.internal.DefaultExecHandle] Process 'Gradle build daemon' finished with exit value 0 (state: DETACHED)
+2021-03-18T10:42:25.117+0300 [DEBUG] [org.gradle.launcher.daemon.client.DefaultDaemonStarter] Gradle daemon process is now detached.
+2021-03-18T10:42:25.118+0300 [INFO] [org.gradle.launcher.daemon.client.DefaultDaemonStarter] An attempt to start the daemon took 0.123 secs.
+2021-03-18T10:42:25.119+0300 [LIFECYCLE] [org.gradle.launcher.cli.DebugLoggerWarningAction] 
+#############################################################################
+   WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+
+   Debug level logging will leak security sensitive information!
+
+   https://docs.gradle.org/6.5/userguide/logging.html#sec:debug_security
+#############################################################################
+
+2021-03-18T10:42:25.123+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 
+2021-03-18T10:42:25.123+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] FAILURE: Build failed with an exception.
+2021-03-18T10:42:25.123+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 
+2021-03-18T10:42:25.123+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] * What went wrong:
+2021-03-18T10:42:25.123+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] Unable to start the daemon process.
+2021-03-18T10:42:25.123+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] This problem might be caused by incorrect configuration of the daemon.
+2021-03-18T10:42:25.123+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] For example, an unrecognized jvm option is used.
+2021-03-18T10:42:25.123+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] Please refer to the User Manual chapter on the daemon at https://docs.gradle.org/6.5/userguide/gradle_daemon.html
+2021-03-18T10:42:25.123+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] Process command line: C:\Program Files (x86)\Java\jdk1.8.0_281\bin\java.exe -XX:MaxPermSize=4096m -XX:+HeapDumpOnOutOfMemoryError -Xmx4096m -Dfile.encoding=windows-1252 -Duser.country=US -Duser.language=en -Duser.variant -cp C:\Users\Kostya\.gradle\wrapper\dists\gradle-6.5-bin\6nifqtx7604sqp1q6g8wikw7p\gradle-6.5\lib\gradle-launcher-6.5.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 6.5
+2021-03-18T10:42:25.123+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] Please read the following process output to find out more:
+2021-03-18T10:42:25.123+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] -----------------------
+2021-03-18T10:42:25.123+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] Java HotSpot(TM) Client VM warning: ignoring option MaxPermSize=4096m; support was removed in 8.0
+2021-03-18T10:42:25.123+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] Invalid maximum heap size: -Xmx4096m
+2021-03-18T10:42:25.123+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] The specified size exceeds the maximum representable size.
+2021-03-18T10:42:25.123+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] Error: Could not create the Java Virtual Machine.
+2021-03-18T10:42:25.123+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] Error: A fatal exception has occurred. Program will exit.
+2021-03-18T10:42:25.123+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 
+2021-03-18T10:42:25.123+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 
+2021-03-18T10:42:25.123+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] * Try:
+2021-03-18T10:42:25.124+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter]  Run with --scan to get full insights.
+2021-03-18T10:42:25.124+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 
+2021-03-18T10:42:25.124+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] * Exception is:
+2021-03-18T10:42:25.132+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] org.gradle.api.GradleException: Unable to start the daemon process.
+2021-03-18T10:42:25.132+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] This problem might be caused by incorrect configuration of the daemon.
+2021-03-18T10:42:25.132+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] For example, an unrecognized jvm option is used.
+2021-03-18T10:42:25.132+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] Please refer to the User Manual chapter on the daemon at https://docs.gradle.org/6.5/userguide/gradle_daemon.html
+2021-03-18T10:42:25.132+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] Process command line: C:\Program Files (x86)\Java\jdk1.8.0_281\bin\java.exe -XX:MaxPermSize=4096m -XX:+HeapDumpOnOutOfMemoryError -Xmx4096m -Dfile.encoding=windows-1252 -Duser.country=US -Duser.language=en -Duser.variant -cp C:\Users\Kostya\.gradle\wrapper\dists\gradle-6.5-bin\6nifqtx7604sqp1q6g8wikw7p\gradle-6.5\lib\gradle-launcher-6.5.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 6.5
+2021-03-18T10:42:25.132+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] Please read the following process output to find out more:
+2021-03-18T10:42:25.132+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] -----------------------
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] Java HotSpot(TM) Client VM warning: ignoring option MaxPermSize=4096m; support was removed in 8.0
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] Invalid maximum heap size: -Xmx4096m
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] The specified size exceeds the maximum representable size.
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] Error: Could not create the Java Virtual Machine.
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] Error: A fatal exception has occurred. Program will exit.
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.client.DaemonGreeter.parseDaemonOutput(DaemonGreeter.java:38)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.client.DefaultDaemonStarter.startProcess(DefaultDaemonStarter.java:176)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.client.DefaultDaemonStarter.startDaemon(DefaultDaemonStarter.java:137)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.client.DefaultDaemonConnector.doStartDaemon(DefaultDaemonConnector.java:217)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.client.DefaultDaemonConnector.startDaemon(DefaultDaemonConnector.java:211)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.client.DefaultDaemonConnector.connect(DefaultDaemonConnector.java:133)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.client.DaemonClient.execute(DaemonClient.java:145)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.client.DaemonClient.execute(DaemonClient.java:99)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:56)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:212)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.cli.DefaultCommandLineActionFactory$ParseAndBuildAction.execute(DefaultCommandLineActionFactory.java:294)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.cli.DefaultCommandLineActionFactory$ParseAndBuildAction.execute(DefaultCommandLineActionFactory.java:266)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.cli.DebugLoggerWarningAction.execute(DebugLoggerWarningAction.java:82)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.cli.DebugLoggerWarningAction.execute(DebugLoggerWarningAction.java:30)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.cli.WelcomeMessageAction.execute(WelcomeMessageAction.java:92)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.cli.WelcomeMessageAction.execute(WelcomeMessageAction.java:38)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.cli.NativeServicesInitializingAction.execute(NativeServicesInitializingAction.java:44)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.cli.NativeServicesInitializingAction.execute(NativeServicesInitializingAction.java:26)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:41)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:26)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.cli.DefaultCommandLineActionFactory$WithLogging.execute(DefaultCommandLineActionFactory.java:259)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.Main.doAction(Main.java:35)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:50)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at java.lang.reflect.Method.invoke(Method.java:498)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.GradleMain.main(GradleMain.java:31)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at java.lang.reflect.Method.invoke(Method.java:498)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:35)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:63)
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 
+2021-03-18T10:42:25.133+0300 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] * Get more help at https://help.gradle.org
